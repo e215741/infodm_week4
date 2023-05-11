@@ -17,4 +17,7 @@ import importlib
 importlib.reload(regression)
 model = regression.LinearRegression()
 model.fit(X, Y)
-print(model.theta)
+#print(model.theta)
+
+#ver3
+print(model.predict(X))
